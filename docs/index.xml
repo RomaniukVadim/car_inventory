@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Каталог доступності авто</title>
-    <link>https://vadimromaniuk.github.io/car-inventory/</link>
+    <link>https://romaniukvadim.github.io/car_inventory/</link>
     <description>Recent content on Каталог доступності авто</description>
     <generator>Hugo</generator>
     <language>uk-ua</language>
     <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vadimromaniuk.github.io/car-inventory/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://romaniukvadim.github.io/car_inventory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cover Image</title>
-      <link>https://vadimromaniuk.github.io/car-inventory/posts/tesla-model-3/</link>
+      <link>https://romaniukvadim.github.io/car_inventory/posts/tesla-model-3/</link>
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://vadimromaniuk.github.io/car-inventory/posts/tesla-model-3/</guid>
+      <guid>https://romaniukvadim.github.io/car_inventory/posts/tesla-model-3/</guid>
       <description>This page is created to test the cover image functionality in Hugo.</description>
     </item>
   </channel>
