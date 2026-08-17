@@ -1,20 +1,48 @@
-baseURL = 'https://vadimromaniuk.github.io/car-inventory/'
-
-locale = 'en-us'
-title = 'Car Availability Inventory'
-theme = "blowfish"
+baseURL = "https://vadimromaniuk.github.io/car-inventory/"
+locale = "uk-ua"
+title = "Каталог доступності авто"
+theme = "PaperMod"
 
 [params]
-  # This helps Blowfish understand how to group your cars
-  # You can add tags like 'Tesla', 'SUV', 'Sedan'
-  default_theme = "blowfish"
+  home_page_content_dir = "posts"
+  env = "production"
+  description = "Каталог доступності авто - сучасний інвентар"
+  author = "Адмін"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = true
 
-# Setup for GitHub Pages
+  [params.profileMode]
+    enabled = false
+    title = "Каталог авто"
+    imageUrl = "#"
+    imageTitle = "Профіль"
+    subtitle = "🚗 Швидко | ☁️ Прозоро | 🌙 Просто | 📱 Адаптивно"
+    buttons = [
+      { name = "Каталог", url = "/" },
+      { name = "Про нас", url = "/about/" }
+    ]
+
+  [params.homeInfoParams]
+    Title = "Наш інвентар"
+    Content = "Ласкаво просимо до нашого каталогу! Тут ви можете знайти детальні характеристики, ціни та стан кожного авто.\n- Перегляньте деталі кожного автомобіля.\n- Виберіть ідеальний варіант для себе."
+
+  [params.assets]
+    disableHLJS = true
+
+[languages.uk]
+  languageName = "Українська"
+  weight = 1
+  lang = "uk"
+  contentDir = "content"
+  direction = "ltr"
+  label = "Українська"
+
 [outputs]
-  home = ["HTML", "RSS"]
-
-# This ensures the site treats your "cars" folder as the main content
-[content]
-  # If you want to only show cars on the homepage, 
-  # you can configure Blowfish to prioritize the 'cars' directory.
-
+  home = ["HTML", "RSS", "JSON"]
