@@ -1,0 +1,20 @@
+baseURL = 'https://vadimromaniuk.github.io/car-inventory/'
+
+locale = 'en-us'
+title = 'Car Availability Inventory'
+theme = "blowfish"
+
+[params]
+  # This helps Blowfish understand how to group your cars
+  # You can add tags like 'Tesla', 'SUV', 'Sedan'
+  default_theme = "blowfish"
+
+# Setup for GitHub Pages
+[outputs]
+  home = ["HTML", "RSS"]
+
+# This ensures the site treats your "cars" folder as the main content
+[content]
+  # If you want to only show cars on the homepage, 
+  # you can configure Blowfish to prioritize the 'cars' directory.
+
