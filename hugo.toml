@@ -2,6 +2,7 @@ baseURL = "https://vadimromaniuk.github.io/car-inventory/"
 locale = "uk-ua"
 title = "Каталог доступності авто"
 theme = "PaperMod"
+publishDir = "docs"
 
 [params]
   home_page_content_dir = "posts"
