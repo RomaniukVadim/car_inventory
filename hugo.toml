@@ -3,16 +3,16 @@ locale = "uk-ua"
 title = "Каталог доступності авто"
 theme = "PaperMod"
 publishDir = "docs"
+defaultContentLanguage = "uk"
 
 [params]
   home_page_content_dir = "posts"
   env = "production"
   description = "Каталог доступності авто - сучасний інвентар"
-  author = "Адмін"
   ShowShareButtons = true
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = true
   ShowAllPagesInArchive = true
@@ -30,15 +30,13 @@ publishDir = "docs"
       { name = "Про нас", url = "/about/" }
     ]
 
-  [params.homeInfoParams]
-    Title = "Наш інвентар"
-    Content = "Ласкаво просимо до нашого каталогу! Тут ви можете знайти детальні характеристики, ціни та стан кожного авто.\n- Перегляньте деталі кожного автомобіля.\n- Виберіть ідеальний варіант для себе."
-
   [params.assets]
     disableHLJS = true
 
+[i18n]
+  "breadcrumbs.posts" = "Пости"
+
 [languages.uk]
-  languageName = "Українська"
   weight = 1
   lang = "uk"
   contentDir = "content"

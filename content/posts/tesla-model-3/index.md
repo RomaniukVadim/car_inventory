@@ -1,20 +1,18 @@
 ---
-title: Cover Image
-description: This page is created to test the cover image functionality in Hugo.
-summary: This is a test page to verify that the cover image is displayed correctly in Hugo.
-date: 2026-04-11
+title: Tesla Model 3 
+price: 10000$
+description: Продам гольфа в доброму стані по кузову як на свій вік нічого робити не потрібно технічно авто добре коштів на обслуговування не шкодували,по електриці все працює кондиціонер робочий , на даним час вкладень авто не потребує з документами повний порядок, ціна вказана реальна.
+summary: В дорозі
 draft: false
 cover_image: front.jpg
 cover:
-    alt: "A sample cover image"
-    caption: "This is a caption for the cover image."
+    alt: "Головне фото"
 ---
+## Характеристики автомобіля
+- **Особливості:** автопілот, преміум-аудіосистема, скляний дах
+- **Пробіг:** 120 000км
 
-## Vehicle Details
-- **Mileage:** 12,000 miles
-- **Warranty:** Remaining
-- **Features:** Autopilot, Premium Audio, Glass Roof
 
-## Gallery
-![Interior View](interior.jpg)
-![Front View](front.jpg)
+## Фото
+[![1](interior.jpg)](interior.jpg)
+[![2](front.jpg)](front.jpg)

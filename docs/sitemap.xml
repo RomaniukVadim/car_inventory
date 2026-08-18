@@ -2,17 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://romaniukvadim.github.io/car_inventory/posts/tesla-model-3/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/car_inventory/categories/</loc>
   </url><url>
-    <loc>https://romaniukvadim.github.io/car_inventory/posts/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/car_inventory/posts/</loc>
   </url><url>
-    <loc>https://romaniukvadim.github.io/car_inventory/</loc>
-    <lastmod>2026-04-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/car_inventory/tags/</loc>
   </url><url>
-    <loc>https://romaniukvadim.github.io/car_inventory/categories/</loc>
+    <loc>http://localhost:1313/car_inventory/posts/tesla-model-3/</loc>
   </url><url>
-    <loc>https://romaniukvadim.github.io/car_inventory/tags/</loc>
+    <loc>http://localhost:1313/car_inventory/</loc>
   </url>
 </urlset>
