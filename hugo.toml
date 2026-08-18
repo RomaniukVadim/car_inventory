@@ -1,7 +1,7 @@
 baseURL = "https://importcar.pp.ua"
 locale = "uk-ua"
 title = "Каталог доступності авто"
-theme = "PaperMod"
+theme = "papermod"
 publishDir = "docs"
 paginate = 5
 defaultContentLanguage = "uk"
