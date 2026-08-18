@@ -27,13 +27,12 @@ jobs:
       # Set the build time zone
       TZ: Europe/Oslo
     steps:
-      - name: Initialize and sync Git submodules
-        run: |
-          if [[ -f .gitmodules ]]; then
-            echo "Syncing and initializing submodules..."
-            git submodule sync --recursive
-            git submodule update --init --recursive --force
-          fi
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          lfs: false
 
       - name: Setup Pages
         id: pages
@@ -115,14 +114,8 @@ jobs:
 
       - name: Build
         run: |
-          echo "Debugging current directory and files..."
-          pwd
-          ls -la
-          echo "Parent directory contents:"
-          ls -la ..
           echo "Building the project..."
           hugo build \
-            --source "${{ github.workspace }}" \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
