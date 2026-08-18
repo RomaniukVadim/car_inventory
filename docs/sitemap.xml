@@ -8,8 +8,12 @@
   </url><url>
     <loc>http://localhost:1313/car_inventory/tags/</loc>
   </url><url>
+    <loc>http://localhost:1313/car_inventory/posts/tesla-model-2/</loc>
+  </url><url>
     <loc>http://localhost:1313/car_inventory/posts/tesla-model-3/</loc>
   </url><url>
     <loc>http://localhost:1313/car_inventory/</loc>
+  </url><url>
+    <loc>http://localhost:1313/car_inventory/contact/</loc>
   </url>
 </urlset>

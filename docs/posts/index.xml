@@ -9,6 +9,13 @@
     <atom:link href="http://localhost:1313/car_inventory/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tesla Model 3</title>
+      <link>http://localhost:1313/car_inventory/posts/tesla-model-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/car_inventory/posts/tesla-model-2/</guid>
+      <description>Продам гольфа в доброму стані по кузову як на свій вік нічого робити не потрібно технічно авто добре коштів на обслуговування не шкодували,по електриці все працює кондиціонер робочий , на даним час вкладень авто не потребує з документами повний порядок, ціна вказана реальна.</description>
+    </item>
+    <item>
+      <title>Tesla Model 3</title>
       <link>http://localhost:1313/car_inventory/posts/tesla-model-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/car_inventory/posts/tesla-model-3/</guid>

@@ -3,45 +3,45 @@ locale = "uk-ua"
 title = "Каталог доступності авто"
 theme = "PaperMod"
 publishDir = "docs"
+paginate = 5
 defaultContentLanguage = "uk"
+enableRobotsTXT = true
 
 [params]
   home_page_content_dir = "posts"
   env = "production"
   description = "Каталог доступності авто - сучасний інвентар"
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowReadingTime = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = true
-  ShowAllPagesInArchive = true
+  ShowAllPagesInArchive = false
   ShowPageNums = true
-  ShowToc = true
+  ShowToc = false
 
-  [params.profileMode]
-    enabled = false
-    title = "Каталог авто"
-    imageUrl = "#"
-    imageTitle = "Профіль"
-    subtitle = "🚗 Швидко | ☁️ Прозоро | 🌙 Просто | 📱 Адаптивно"
-    buttons = [
-      { name = "Каталог", url = "/" },
-      { name = "Про нас", url = "/about/" }
-    ]
 
   [params.assets]
     disableHLJS = true
 
-[i18n]
-  "breadcrumbs.posts" = "Пости"
+  [params.homeInfoParams]
+Title = "Ваше авто: від пригону до ремонту"
+Content = """
+Допоможу знайти, привезти та привести до ладу автомобіль, який вам підходить. Працюю індивідуально, тому кожен клієнт — це особистий контроль.
+- <b>Пригін авто</b>: Знаходжу та привожу авто з-за кордону за вашим запитом.
+- <b>Технічний стан</b>: Ремонтую та підготую авто до експлуатації, щоб ви отримали надійний транспорт.
+- <b>Авто в наявності</b>: Маю в наявності кілька перевірених варіантів, які можна розглянути вже зараз.
+- <b>Чесний підхід</b>: Ви отримуєте пряму комунікацію з виконавцем без зайвих посередників та "корпоративних" націнок.
+"""
 
-[languages.uk]
-  weight = 1
-  lang = "uk"
-  contentDir = "content"
-  direction = "ltr"
-  label = "Українська"
+
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Контакт"
+  url = "/contact/"
+  weight = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
