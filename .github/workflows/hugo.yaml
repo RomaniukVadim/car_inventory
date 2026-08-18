@@ -115,6 +115,9 @@ jobs:
 
       - name: Build
         run: |
+          echo "Debugging current directory and files..."
+          pwd
+          ls -la
           echo "Building the project..."
           hugo build \
             --source "${{ github.workspace }}" \
