@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Каталог доступності авто</title>
-    <link>http://localhost:1313/car_inventory/</link>
+    <link>https://importcar.pp.ua/</link>
     <description>Recent content on Каталог доступності авто</description>
     <generator>Hugo</generator>
     <language>uk-ua</language>
-    <atom:link href="http://localhost:1313/car_inventory/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://importcar.pp.ua/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tesla Model 3</title>
-      <link>http://localhost:1313/car_inventory/posts/tesla-model-2/</link>
+      <link>https://importcar.pp.ua/posts/tesla-model-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/car_inventory/posts/tesla-model-2/</guid>
+      <guid>https://importcar.pp.ua/posts/tesla-model-2/</guid>
       <description>Продам гольфа в доброму стані по кузову як на свій вік нічого робити не потрібно технічно авто добре коштів на обслуговування не шкодували,по електриці все працює кондиціонер робочий , на даним час вкладень авто не потребує з документами повний порядок, ціна вказана реальна.</description>
     </item>
     <item>
       <title>Tesla Model 3</title>
-      <link>http://localhost:1313/car_inventory/posts/tesla-model-3/</link>
+      <link>https://importcar.pp.ua/posts/tesla-model-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/car_inventory/posts/tesla-model-3/</guid>
+      <guid>https://importcar.pp.ua/posts/tesla-model-3/</guid>
       <description>Продам гольфа в доброму стані по кузову як на свій вік нічого робити не потрібно технічно авто добре коштів на обслуговування не шкодували,по електриці все працює кондиціонер робочий , на даним час вкладень авто не потребує з документами повний порядок, ціна вказана реальна.</description>
     </item>
     <item>
       <title>Контакт</title>
-      <link>http://localhost:1313/car_inventory/contact/</link>
+      <link>https://importcar.pp.ua/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/car_inventory/contact/</guid>
+      <guid>https://importcar.pp.ua/contact/</guid>
       <description>&lt;h3 id=&#34;іван-іванов&#34;&gt;&lt;strong&gt;Іван Іванов&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;📞 &lt;strong&gt;Телефон:&lt;/strong&gt; &lt;a href=&#34;tel:+380441234567&#34;&gt;+380 (44) 123-45-67&lt;/a&gt;&lt;/p&gt;</description>
     </item>

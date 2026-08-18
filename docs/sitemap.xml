@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/car_inventory/categories/</loc>
+    <loc>https://importcar.pp.ua/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/car_inventory/posts/</loc>
+    <loc>https://importcar.pp.ua/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/car_inventory/tags/</loc>
+    <loc>https://importcar.pp.ua/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/car_inventory/posts/tesla-model-2/</loc>
+    <loc>https://importcar.pp.ua/posts/tesla-model-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/car_inventory/posts/tesla-model-3/</loc>
+    <loc>https://importcar.pp.ua/posts/tesla-model-3/</loc>
   </url><url>
-    <loc>http://localhost:1313/car_inventory/</loc>
+    <loc>https://importcar.pp.ua/</loc>
   </url><url>
-    <loc>http://localhost:1313/car_inventory/contact/</loc>
+    <loc>https://importcar.pp.ua/contact/</loc>
   </url>
 </urlset>
